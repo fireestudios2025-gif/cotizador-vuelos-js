@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "origen": "Buenos Aires (AEP)",
+    "destino": "Bariloche (BRC)",
+    "aerolinea": "Aerolíneas Argentinas",
+    "categoria": "Patagonia",
+    "precioBase": 120000,
+    "duracion": "2h 15m"
+  },
+  {
+    "id": 2,
+    "origen": "Buenos Aires (AEP)",
+    "destino": "Córdoba (COR)",
+    "aerolinea": "Aerolíneas Argentinas",
+    "categoria": "Centro",
+    "precioBase": 65000,
+    "duracion": "1h 20m"
+  },
+  {
+    "id": 3,
+    "origen": "Buenos Aires (AEP)",
+    "destino": "Mendoza (MDZ)",
+    "aerolinea": "Aerolíneas Argentinas",
+    "categoria": "Cuyo",
+    "precioBase": 85000,
+    "duracion": "1h 50m"
+  },
+  {
+    "id": 4,
+    "origen": "Buenos Aires (EZE)",
+    "destino": "Ushuaia (USH)",
+    "aerolinea": "Aerolíneas Argentinas",
+    "categoria": "Patagonia",
+    "precioBase": 165000,
+    "duracion": "3h 35m"
+  },
+  {
+    "id": 5,
+    "origen": "Buenos Aires (AEP)",
+    "destino": "Puerto Iguazú (IGR)",
+    "aerolinea": "Aerolíneas Argentinas",
+    "categoria": "Norte",
+    "precioBase": 95000,
+    "duracion": "1h 55m"
+  },
+  {
+    "id": 6,
+    "origen": "Buenos Aires (AEP)",
+    "destino": "Salta (SLA)",
+    "aerolinea": "Aerolíneas Argentinas",
+    "categoria": "Norte",
+    "precioBase": 90000,
+    "duracion": "2h 10m"
+  }
+]

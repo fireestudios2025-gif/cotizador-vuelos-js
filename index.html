@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rapivuelos - Cotizador de Vuelos</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
+    <script src="./js/api.js" defer></script>
+    <script src="./js/app.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <img src="./assets/logo-rapivuelos.png" alt="Logo Rapivuelos" class="logo-marca">
+        <p>Seleccioná tu destino, elegí la cantidad de pasajeros y armá tu itinerario</p>
+    </header>
+
+    <main class="contenedor">
+        <section class="seccion-vuelos">
+            <div class="filtros">
+                <label for="filtro-region">Filtrar por región:</label>
+                <select id="filtro-region">
+                    <option value="Todas">Todas las regiones</option>
+                    <option value="Patagonia">Patagonia</option>
+                    <option value="Norte">Norte</option>
+                    <option value="Cuyo">Cuyo</option>
+                    <option value="Centro">Centro</option>
+                </select>
+            </div>
+            <div id="contenedor-vuelos" class="grilla-vuelos"></div>
+        </section>
+
+        <aside class="seccion-reserva">
+            <h2>Tu Itinerario</h2>
+            <div id="lista-reserva" class="lista-reserva"></div>
+            <div class="resumen-totales">
+                <p>Subtotal: $<span id="subtotal">0</span></p>
+                <p>Impuestos y tasas (21%): $<span id="impuestos">0</span></p>
+                <h3>Total Final: $<span id="total-final">0</span></h3>
+            </div>
+            <div class="acciones-reserva">
+                <button id="btn-vaciar" class="btn-secundario">Vaciar Itinerario</button>
+                <button id="btn-confirmar" class="btn-primario">Confirmar Reserva</button>
+            </div>
+        </aside>
+    </main>
+</body>
+</html>
